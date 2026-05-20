@@ -1,0 +1,33 @@
+# Environnement virtuel
+venv/
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# Modèles téléchargés
+*.pt
+*.onnx
+*.torchscript
+
+# Sorties générées
+output/
+output_images_colorees/
+output.json
+
+# macOS
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# IDE
+.vscode/
+.idea/
