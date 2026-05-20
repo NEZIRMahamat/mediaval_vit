@@ -11,15 +11,14 @@ __pycache__/
 dist/
 build/
 
-# Modèles téléchargés
+# models et poids
 *.pt
 *.onnx
 *.torchscript
 
-# Sorties générées
+# Outputs and results
 output/
 output_images_colorees/
-output.json
 
 # macOS
 .DS_Store
